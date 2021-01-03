@@ -1,4 +1,4 @@
-# TerGen
+# LB
 
 
 ### Installation
