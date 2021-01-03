@@ -1,15 +1,17 @@
-from libgen_api import LibgenSearch
+from libgen_api import LibgenSearch #For search
 import os, sys, json
 from run import bc 
 import subprocess
 import requests 
 from bs4 import BeautifulSoup
 from pathlib import Path
+
+
 home = str(Path.home())
 
 s = LibgenSearch()
 filters = {
-  	"Language"  : "English"
+  	"Language"  : "English",
   }
 
 def options():
